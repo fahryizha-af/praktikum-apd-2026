@@ -8,10 +8,10 @@ try:
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("=== SISTEM PENCATATAN CUACA ===")
-        print("1. Tambah Data Cuaca (Create)")
-        print("2. Lihat Data Cuaca (Read)")
-        print("3. Ubah Data Cuaca (Update)")
-        print("4. Hapus Data Cuaca (Delete)")
+        print("1. Tambah Data Cuaca")
+        print("2. Lihat Data Cuaca")
+        print("3. Ubah Data Cuaca")
+        print("4. Hapus Data Cuaca")
         print("5. Keluar")
 
         pilihan = input("Pilih menu (1-5): ").strip()
